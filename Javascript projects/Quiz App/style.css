@@ -1,0 +1,100 @@
+.displayclass{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.finalclass{
+    margin: 10px;
+    padding: 5px;
+    width:80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 25px;
+      
+}
+.questionclass{
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 10vh;
+    background-color: orangered;
+    font-size: x-large;
+    text-align: center;
+      
+}
+
+.optionclass{
+    display: flex;
+    justify-content: space-around; 
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 20vh;
+    flex-direction: column;   
+    
+        
+}
+
+.option{    
+    padding: 10px;
+    width: 15vw;
+    height: 10vh;
+    font-size: medium;
+    border-radius: 50px 20px;
+    align-self: center;
+    background-color: bisque;
+}
+
+
+
+body{
+    padding: 0;
+    margin: 0;    
+    width:100vw;
+    height: 100vh;    
+}
+.navigation{
+    width: 80vw;
+    height: 10vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+     background-color:#c7dddf; 
+}
+  
+.next{
+    width:30vw;
+    height: 8vh;
+    padding: 5px;
+    font-size: large;
+    background-color: greenyellow;
+}
+.restart{
+    width:30vw;
+    height: 18vh;
+    padding: 5px;
+    font-size: larger;
+    background-color: green;
+}
+
+.exit{
+    width:30vw;
+    height: 18vh;
+    padding: 5px;
+    font-size: larger;
+    background-color:orangered;
+}
+h1 {
+    text-align: center;
+  }
+
+  .resultdiv
+  {
+    font-weight: 100;
+    font-size: xx-large;
+    
+  }

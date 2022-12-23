@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY QUIZ APP</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body >
+    
+    <div class="displayclass">
+        <h1 >MY QUIZ</h1>
+        <div class="QuestionPage">
+        <div class="finalclass">
+    </div>
+        <div class="questionclass" id="question">
+            QUESTIONS:
+        </div>
+        
+        <div class="optionclass" >
+            <button class="option"  id="op1" >option1</button>
+      
+            <button class="option" id="op2" >option2</button>
+      
+            <button class="option" id="op3">option3</button>
+      
+            <button class="option" id="op4">option4</button>
+        </div>
+            
+        
+        <div class="navigation" id="navigation">
+            
+            <button class="next" id="nextbtn">NEXT</button>
+        </div>
+        </div>
+
+        <div class="resultdiv" >
+            <p></p>
+            
+            <button id="restart" class="restart"  onclick="restarthere()">RESTART THE QUIZ </button>
+            <button id="exit" class="exit"  onclick="exit()">EXIT THE QUIZ</button>
+        
+        </div>
+    </div>
+    
+   <script type="text/javascript" src="index.js" ></script>
+    <script>
+   function restarthere(){
+    alert("RESTARTING THE QUIZ");
+    count=0;
+    id=0;
+    selected="";
+    document.getElementsByClassName("resultdiv")[0].style.display = 'none';
+    document.getElementsByClassName("QuestionPage")[0].style.display = 'block';
+    quiz(0);
+   } 
+
+  function exit(){
+    resultdiv[0].style.backgroundColor = 'lightblue';
+    document.querySelector('.resultdiv').innerText="THANKS FOR TAKING THE QUIZ";
+
+   }
+   </script> 
+</body>
+</html>

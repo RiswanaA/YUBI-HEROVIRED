@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h3 {
+  TEXT-ALIGN: center;
+}
+h2 {
+  TEXT-ALIGN: center;
+}
+ul {
+  padding-inline-start: 0px !important;
+  width: 100%;;
+  list-style: none;
+}
+li {
+  margin: auto;
+  text-decoration: none;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: bisque;
+  width: 300px;
+  border-radius: 5px;
+}
+.addBookPage {
+  width: 100%;
+}
+.addBook {
+  margin: auto;
+  width: 350px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: bisque;
+}
+.addBookButton {
+  margin: auto;
+  width: 350px;
+  margin-top: 10px;
+}
+.addBookButton > button {
+  height: 40px;
+  width: 345px;
+}
+
+.displayBookDetails{
+  width: 100%;
+}
+.bookDetails {
+  width: 500px;
+  margin: auto;
+  background-color: #62d6eb;
+  margin-top: 20px;
+  border-radius: 7px;
+  padding: 20px;
+}
+.bookNewDetails {
+  width: 100%;
+  background-color: bisque;
+}
+.bookNewDetails > p {
+  padding: 7x;
+  text-align: center;
+}
+.searchHere >input {
+  width: 339px;
+  height: 30px;  
+  margin: auto;
+}
+.searchHere {
+  margin: auto;
+  width: 350px;
+  margin-top: 20px;
+}
+h5 {
+  padding: 15px;
+  text-align: center;
+}
+.deletePage {
+  width: 100%;
+  background-color: bisque;
+  padding-bottom: 15px;
+}
+.deletePage > p {
+  padding: 7x;
+  text-align: center;
+}
+.searchBook {
+  width: 100%;
+  background-color: bisque;
+  padding-bottom: 15px;
+}
+.searchBook > p {  
+  padding: 7x;
+  text-align: center;
+}
